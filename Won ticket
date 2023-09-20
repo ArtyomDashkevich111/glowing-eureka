@@ -1,0 +1,6 @@
+winners = 0
+for tickets in 345, 19, 87, 1020, 421:
+    if 99 < tickets < 1000 and tickets % 5 == 0:
+        winners += 1
+print(tickets, '- Счастливый билет')
+print(winners, '- Победитель')
